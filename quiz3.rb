@@ -31,13 +31,7 @@
 
 resources :users
 
-    order_path
-    newer_order_path
-    edit_order_path
-    root_path
-    user_hello_path
-    new_user_path
-    edit_user_path
+localhost:3000/users
 
 5. 請解釋 model 檔案和 migration 檔案的差別
     model 對應資料庫裡面的資料表
@@ -74,6 +68,7 @@ end
 8. 請解釋什麼是 ActiveRecord?
 
     Active Record 是 MVC 的 M（Model），表現商業邏輯與資料的層級。
-    Active Record 負責新增與操作需要持久存在資料庫裡的資料。Active Record 本身是物件關聯映射（Object Relational Mapping）系統的描述，以 Active Record 模式實作。
+    Active Record 負責新增與操作需要持久存在資料庫裡的資料。本身是物件關聯映射（Object Relational Mapping）系統的描述，
+    以 Active Record 模式實作。
     像是一個翻譯器 負責翻譯ruby and SQL語言
     可以說是rails的ORM
